@@ -11,3 +11,6 @@ puts params["supplier"]["bank_accounts"]["1"]["branch_name"]
 params["type"] = "personal";
 
 puts params
+
+puts params.has_key?("type")
+
